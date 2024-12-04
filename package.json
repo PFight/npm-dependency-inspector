@@ -1,0 +1,31 @@
+{
+  "name": "npm-dependency-inspector",
+  "version": "1.1.0",
+  "description": "Tool for inspecting package-lock.json file to determine, why some package installed.",
+  "main": "index.js",
+  "scripts": {
+    "run": "node ./run.js"
+  },
+  "bin": {
+    "npm-dependency-inspector": "./run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PFight/npm-dependency-inspector.git"
+  },
+  "keywords": [
+    "npm",
+    "dependency",
+    "package-lock",
+    "node_modules"
+  ],
+  "author": "Pavel Bogatyrev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PFight/npm-dependency-inspector/issues"
+  },
+  "homepage": "https://github.com/PFight/npm-dependency-inspector#readme",
+  "dependencies": {
+    "commander": "^8.3.0"
+  }
+}
