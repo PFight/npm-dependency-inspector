@@ -5,7 +5,7 @@ const fs = require('fs');
 
 program
   .name('npm-dependency-inspector')
-  .version("0.1");
+  .version("1.1.1");
 
 program.command('explain')
   .description('Explain for every package reason, why it was installed.')
